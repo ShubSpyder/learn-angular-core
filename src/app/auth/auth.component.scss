@@ -1,0 +1,30 @@
+.tab-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.2rem 0;
+  width: 100%;
+
+  .tab-btn {
+    margin-right: 1.4rem;
+    padding-bottom: 0.2rem;
+    font-size: 18px;
+  }
+
+  .tab-btn:hover {
+    color: #083efd;
+  }
+
+  .tab-btn-active {
+    color: #083efd;
+    border-bottom: 2.4px solid #083efd;
+  }
+}
+
+.auth-card {
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  width: 450px;
+  margin: 0 auto;
+}
